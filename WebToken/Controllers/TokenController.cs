@@ -12,7 +12,7 @@ namespace WebToken.Controllers
             return Ok (
                 new
                 {
-                    Guid = Guid.NewGuid().ToString(),
+                    Guid = Guid.NewGuid(),
                     Expires = DateTime.UtcNow.AddMinutes(30),
                     Origin = Environment.MachineName
                 }
