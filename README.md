@@ -15,12 +15,10 @@ Using Service:
 
 docker service init
 
-To create 1 worker
-
-docker service create --publish 5000:5000 --replicas 1 --name webtoken webtoken-img
+docker service create --publish 5000:5000 --name webtoken webtoken-img
 
 To scale the service: 
 
 docker service scale webtoken=3
 
- docker service ps webtoken
+docker service ps webtoken
