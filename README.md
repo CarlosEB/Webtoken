@@ -1,4 +1,4 @@
-"# WebToken" 
+# WebToken
 
 Simple example using .net Core and Docker:
 
