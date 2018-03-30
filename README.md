@@ -22,3 +22,6 @@ To scale the service:
 docker service scale webtoken=3
 
 docker service ps webtoken
+
+calling using PowerShell: 
+Invoke-RestMethod -Uri http://192.168.99.100:5000/api/token
